@@ -51,5 +51,11 @@
   "bugs": {
     "url": "https://github.com/NaveOWO/woowacourse-sample-modal/issues"
   },
-  "homepage": "https://github.com/NaveOWO/woowacourse-sample-modal#readme"
+  "homepage": "https://github.com/NaveOWO/woowacourse-sample-modal#readme",
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  }
 }
