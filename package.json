@@ -13,11 +13,16 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.3",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.81.0",
+    "webpack-cli": "^5.0.2"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "webpack --mode production",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "publish:npm": "rm -rf dist && mkdir dist && babel src/ -d dist --copy-files"
@@ -51,11 +56,5 @@
   "bugs": {
     "url": "https://github.com/NaveOWO/woowacourse-sample-modal/issues"
   },
-  "homepage": "https://github.com/NaveOWO/woowacourse-sample-modal#readme",
-  "babel": {
-    "presets": [
-      "@babel/preset-env",
-      "@babel/preset-react"
-    ]
-  }
+  "homepage": "https://github.com/NaveOWO/woowacourse-sample-modal#readme"
 }
